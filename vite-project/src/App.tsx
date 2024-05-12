@@ -1,17 +1,12 @@
 
 import './App.css'
+import MuiTypography from './components/MuiTypography'
 
 function App() {
- 
-
   return (
-    <>
-      <div>
-
-      <h1>Vite + React</h1>
-      </div>
-      
-    </>
+    <div className="App">
+      <MuiTypography />
+    </div>
   )
 }
 
