@@ -9,6 +9,7 @@ import MuiSelect from './components/MuiSelect'
 import MuiText from './components/MuiText'
 import MuiTypography from './components/MuiTypography'
 import MuiCard from './components/MuiCard'
+import MuiAccordion from './components/MuiAccordion'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <MuiAutoComplete />
       <MuiLayout />
       <MuiCard />
+      <MuiAccordion />
       
       
     </div>
