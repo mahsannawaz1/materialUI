@@ -1,8 +1,12 @@
-import { Box,Stack,Divider,Grid } from "@mui/material"
+import { Box,Stack,Divider,Grid, Paper } from "@mui/material"
 
 const MuiLayout = () => {
     return (
-        <>
+        <Paper  sx={{
+            padding:4,
+            bgcolor:'primary.light'
+
+        }}  elevation={5}>
         <Stack direction="row" spacing={2} divider={<Divider flexItem orientation="vertical" />} sx={{
             border:'1px solid black'
         }}>
@@ -54,7 +58,7 @@ const MuiLayout = () => {
             </Grid>
         </Grid>
         
-        </>
+        </Paper>
         
 
     )
