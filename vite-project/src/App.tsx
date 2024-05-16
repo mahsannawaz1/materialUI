@@ -10,6 +10,7 @@ import MuiText from './components/MuiText'
 import MuiTypography from './components/MuiTypography'
 import MuiCard from './components/MuiCard'
 import MuiAccordion from './components/MuiAccordion'
+import MuiImageList from './components/MuiImageList'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <MuiLayout />
       <MuiCard />
       <MuiAccordion />
+      <MuiImageList />
       
       
     </div>
