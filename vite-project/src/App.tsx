@@ -11,11 +11,12 @@ import MuiTypography from './components/MuiTypography'
 import MuiCard from './components/MuiCard'
 import MuiAccordion from './components/MuiAccordion'
 import MuiImageList from './components/MuiImageList'
+import MuiNavBar from './components/MuiNavBar'
 
 function App() {
   return (
     <div className="App">
-
+      <MuiNavBar />
       <MuiTypography />
       <MuiButton />
       <MuiText />
